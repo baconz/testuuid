@@ -1,0 +1,10 @@
+[versions]
+
+apollo = "3.8.2"
+uuid = "0.7.0"
+
+[libraries]
+
+apollo-api = { group = "com.apollographql.apollo3", name = "apollo-api", version.ref = "apollo" }
+
+uuid = { group = "com.benasher44", name = "uuid", version.ref = "uuid" }

@@ -56,7 +56,9 @@ kotlin {
 
         val commonMain by getting {
             dependencies {
-                api("com.benasher44:uuid:0.7.0")
+                api(deps.apollo.api)
+
+                api(deps.uuid)
             }
         }
         val jsMain by getting {
